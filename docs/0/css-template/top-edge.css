@@ -1,0 +1,8 @@
+{{query}} {
+    position: fixed;
+    right: 0;
+    display: none;
+}
+{{query}}:hover {
+    display: inline;
+}
