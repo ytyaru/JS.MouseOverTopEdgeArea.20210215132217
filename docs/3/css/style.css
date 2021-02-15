@@ -1,0 +1,24 @@
+@charset "utf-8";
+div.dropdown-btn {
+	position: fixed; /* 位置固定 */
+	right:0; /* 右寄せ */
+	display: var(--setting-display); /* 表示・非表示の切替 */
+/*	float: right;*/
+	background: var(--setting-color-bg);
+	color: var(--setting-color-fg);
+/*	opacity: 0.7;*/
+/*	height: var(--default-LchColorWheel-wheelDiameter);*/
+}
+/* 設定メニュー表示・非表示 */
+.dropdown-btn .dropdown{
+	display: none;
+	background: var(--setting-color-bg);
+	color: var(--setting-color-fg);
+}
+.dropdown-btn:hover .dropdown{
+	display: inline;
+/*    display: flex;*/
+/*    display: block;*/
+	background: var(--setting-color-bg);
+	color: var(--setting-color-fg);
+}
